@@ -4,7 +4,7 @@ import Contact from './pages/Contact';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-
+import './App.css';
 function App() {
   return (
     <BrowserRouter>
