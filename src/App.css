@@ -1,0 +1,55 @@
+/* Center the entire page content */
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  text-align: center;      /* Center vertically */
+  min-height: 100vh;           /* Full height */
+}
+
+/* Container for content */
+.main-content {
+  text-align: center;
+  justify-content: center;
+}
+
+/* Navigation */
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #5a43f1;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #0b0b0b;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* About content */
+.about-content {
+  text-align: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+}
